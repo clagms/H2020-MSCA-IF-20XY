@@ -8,16 +8,23 @@ Feel free to open a pull request if you would like to improve this template!
 
 ## Usage Instructions
 
-The easiest way to compile the pdf is with the makefile (courtesy of @ilfreddy).
-In a terminal (i.e., on the command line), navigate to the project directory and type:
+The easiest way to compile the pdf is to use the provided scripts.
 
+### Command line (with make)
+
+In a terminal (i.e., on the command line), navigate to the project directory and run:
 > make
+(courtesy of @ilfreddy)
 
-This will produce [document1.pdf](document1.pdf) and [document2.pdf](document2.pdf),
+### Powershell (Windows)
+
+In the powershell, navigate to the current project directory, and run:
+> .\build.ps1
+
+Both the above scripts will produce [document1.pdf](document1.pdf) and [document2.pdf](document2.pdf),
 corresponding to the two parts of Part B in the 2018 call. 
 It will also produce [IF-2018-Part_B.pdf](IF-2018-Part_B.pdf), which contains both parts.
 When submitting the grant, one must submit documents 1 and 2 separately.
-
 
 To prepare your proposal you will want to:
 
