@@ -2,7 +2,7 @@ param(
   [switch] $keep = $false
 )
 
-$proposal="IF-2018-Part_B"
+$proposal="IF-2020-Part_B"
 
 pdflatex $proposal
 pdflatex -jobname=document1 "\includeonly{doc1}\input{$proposal}"

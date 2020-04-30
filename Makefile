@@ -1,4 +1,4 @@
-proposal=IF-2018-Part_B
+proposal=IF-2020-Part_B
 
 all:
 	make proposal
