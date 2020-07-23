@@ -46,7 +46,7 @@
 % \titlespacing\subsubsection{0pt}{6pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 
 \titleformat*{\section}{\large\bfseries}
-\titleformat*{\subsection}{\normalsize\bfseries\itshape}
+\titleformat*{\subsection}{\normalsize\bfseries}
 \titleformat*{\subsubsection}{\normalsize\bfseries}
 \let\oldfootnotesize\footnotesize
 \renewcommand{\footnotesize}{\fontsize{8bp}{1em}\selectfont}
@@ -82,7 +82,7 @@
 
 \newcommand{\markStartPageLimit}{%
 \begin{flushright}
-\textcolor{red}{{\large {\bf START PAGE COUNT \--- MAX 10 PAGES~~~~~}}\\
+\textcolor{red}{{\bf START PAGE COUNT \--- MAX 10 PAGES\---  \underline{DO NOT} ADD INTRODUCTORY PAGES BEFORE THIS}\\ \vspace{-.2cm}
 \rule{\textwidth}{0.5mm}
 }\vspace{-.5cm}
 \end{flushright}
@@ -105,7 +105,7 @@
 
 \pagestyle{fancy}
 \fancyhead{}
-\fancyhead[C]{\color{gray}{\ac{PropAcronym}\xspace\xspace - EF Standard / EF-CAR / EF-RI / EF-SE / GF\\
+\fancyhead[C]{\color{gray}{\ac{PropAcronym}\xspace\xspace - EF-ST / EF-CAR / EF-RI / EF-SE / GF\\
 (Delete as appropriate and include as header on each page)}}
 \fancyfoot{}
 \fancyfoot[C]{\color{gray}{Part B - Page \thepage~of \pageref*{sec:letters}}}
